@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# Exclude the report PDF
+# Exclude all PDFs except the final report tp2.pdf
 *.pdf
+!tp2.pdf
 
 # Exclude real OR-Library datasets
 /scp*.txt
@@ -23,3 +24,10 @@ Conference-LaTeX-template_10-17-19/
 
 # Exclude generated plots
 plots/
+
+# Local/temporary run files and spec text
+.python-version
+results_real.csv
+results_real_sampled.csv
+run_sampled_real_benchmarks.py
+tp2.txt
