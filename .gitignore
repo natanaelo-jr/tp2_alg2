@@ -9,9 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# Exclude all PDFs except the final report tp2.pdf
+# Exclude the report PDF
 *.pdf
-!tp2.pdf
 
 # Exclude real OR-Library datasets
 /scp*.txt
@@ -27,7 +26,12 @@ plots/
 
 # Local/temporary run files and spec text
 .python-version
-results_real.csv
-results_real_sampled.csv
 run_sampled_real_benchmarks.py
 tp2.txt
+
+# Exclude CSV files
+*.csv
+
+# Exclude all markdown files except README
+*.md
+!README.md
