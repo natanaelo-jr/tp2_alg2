@@ -15,3 +15,11 @@ wheels/
 # Exclude real OR-Library datasets
 /scp*.txt
 data/scp*.txt
+
+# Exclude LaTeX source files and templates
+IEEEtran.cls
+relatorio.tex
+Conference-LaTeX-template_10-17-19/
+
+# Exclude generated plots
+plots/
