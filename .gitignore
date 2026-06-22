@@ -9,9 +9,6 @@ wheels/
 # Virtual environments
 .venv
 
-# Exclude the report PDF
-*.pdf
-
 # Exclude real OR-Library datasets
 /scp*.txt
 data/scp*.txt
